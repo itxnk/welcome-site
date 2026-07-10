@@ -3,6 +3,7 @@ kind: Application
 
 metadata:
   name: welcome-nginx
+  namespace: argocd   # <-- Add this
 
 spec:
   project: default
