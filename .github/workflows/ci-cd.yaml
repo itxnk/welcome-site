@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t nasrullah125/welcome-site:latest .
+          docker build -t nasrullah125/welcome-site:latest ./website
 
       - name: Push Docker Image
         run: |
