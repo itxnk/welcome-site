@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: nasrullah125/welcome
-  tag: v1
+  repository: nasrullah125/welcome-site
+  tag: latest
   pullPolicy: IfNotPresent
 
 
